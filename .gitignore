@@ -1,0 +1,52 @@
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+
+.env
+.env.*          # Ví dụ: .env.production, .env.local
+
+
+.DS_Store       # macOS
+Thumbs.db       # Windows
+desktop.ini
+
+
+dist/
+build/
+out/            # Một số tool khác như Next.js
+
+
+coverage/
+.nyc_output/
+
+
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+
+*.log
+logs/
+*.tsbuildinfo    # TypeScript build cache
+
+
+*.local
+*.cache
+.cache/
+temp/
+tmp/
+*.bak
+*.orig
+*.swp
+*.zip
+*.tgz
+*.gz
